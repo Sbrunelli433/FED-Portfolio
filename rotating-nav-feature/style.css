@@ -12,7 +12,6 @@ body {
   margin: 0;
 }
 
-
 .container {
   background-color: #fafafa;
   transform-origin: top left;
@@ -24,6 +23,10 @@ body {
 
 .container.show-nav {
   transform: rotate(-20deg);
+}
+
+.container.show-nav .circle {
+  transform: rotate(-70deg);
 }
 
 .circle-container {
@@ -52,6 +55,7 @@ body {
   font-size: 26px;
   color: #fff;
 }
+
 .circle button:focus {
   outline: none;
 }
@@ -60,7 +64,7 @@ body {
   left: 60%;
 }
 
-.circle button#closed {
+.circle button#close {
   top: 60%;
   transform: rotate(90deg);
   transform-origin: top left;
