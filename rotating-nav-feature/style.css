@@ -89,6 +89,11 @@ body {
   line-height: 1.5;
 }
 
+.container.show-nav + nav li {
+  transform: translateX(0);
+  transition-delay: 0.3s;;
+}
+
 nav {
   position: fixed;
   bottom: 40px;
