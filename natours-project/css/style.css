@@ -115,6 +115,20 @@ body {
 .u-margin-top-huge {
   margin-top: 10rem !important; }
 
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: .15;
+  overflow: hidden; }
+  .bg-video__content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
+
 .btn {
   /*.btn:link and .btn:visited are pseudo classes */ }
   .btn:link, .btn:visited {
@@ -438,4 +452,5 @@ body {
   margin-top: -10rem; }
 
 .section-stories {
-  padding: 15rem 0; }
+  padding: 15rem 0;
+  position: relative; }
