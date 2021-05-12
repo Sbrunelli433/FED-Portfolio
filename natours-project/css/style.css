@@ -118,15 +118,19 @@ body {
 .btn {
   /*.btn:link and .btn:visited are pseudo classes */ }
   .btn:link, .btn:visited {
-    color: grey;
-    text-decoration: none;
     text-transform: uppercase;
-    padding: 15px 40px;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
     display: inline-block;
-    border-radius: 100px;
+    border-radius: 10rem;
+    transition: all .2s;
+    position: relative;
+    font-size: 1.6rem;
     /* need transition property on initial state */
     transition: all 0.2s;
-    position: relative; }
+    position: relative;
+    border: none;
+    cursor: pointer; }
   .btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
