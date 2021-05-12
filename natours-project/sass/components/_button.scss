@@ -1,5 +1,6 @@
 .btn {
     /*.btn:link and .btn:visited are pseudo classes */
+    &,
     &:link,
     &:visited {
         text-transform: uppercase;
