@@ -208,7 +208,11 @@ body {
   .card__picture {
     background-blend-mode: screen;
     background-size: cover;
-    height: 23rem; }
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    height: 23rem;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
     .card__picture--1 {
       background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/nat-5.jpg); }
 
