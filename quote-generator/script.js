@@ -6,6 +6,11 @@ const newQuoteBtn = document.getElementById('new-quote');
 
 let apiQuotes = [];
 
+// //created backup newQuote function using quotes.js
+// function newQuote() {
+//     const quote = localQuotes[Math.floor(Math.random() * localQuotes.length)];
+//     console.log(quote);
+// }
 
 //new quote
 function newQuote() {
