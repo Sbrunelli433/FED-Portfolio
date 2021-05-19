@@ -42,4 +42,12 @@ async function getQuotes() {
     }
 }
 
+function tweetQuote() {
+    const twitterUrl = `https://twitter.com/intent/tweet?text=${quoteText.innerText} - ${authorText.innerText}`;
+    window.open(twitterUrl, '_blank');
+}
+
+newQuoteBtn.addEventListener('click', newQuote);
+twitterBtn.addEventListener('click', tweetQuote);
+
 getQuotes();
