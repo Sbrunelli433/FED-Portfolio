@@ -30,6 +30,7 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.7);
+  transform: translateX(-100vw);
 }
 
 .overlay-slide-right {
@@ -168,6 +169,8 @@ nav li:nth-of-type(5) {
     transform: translateX(-100%);
   }
 }
+
+
 
 .menu-bars {
   position: fixed;
