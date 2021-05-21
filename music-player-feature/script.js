@@ -109,7 +109,7 @@ function setProgressBar(e) {
     const clickX = e.offsetX;
     const { duration } = music;
     music.currentTime = (clickX / width) * duration;
-  }
+}
 
 
 let songIndex = 0;
