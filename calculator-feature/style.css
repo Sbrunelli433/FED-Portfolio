@@ -31,10 +31,34 @@ body {
   max-width: 100%;
 
 }
+.calculator-display h1 {
+  margin: 0;
+  padding: 25px;
+  font-size: 45px;
+  font-family: "Lucida Console", sans-serif;
+  font-weight: 100;
+  overflow-x: auto;
+}
 
 .calculator-buttons {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(4, 1fr);
   padding: 10px;
+}
+
+.operator {
+  background: grey;
+  color: white;
+  font-size: 30px;
+}
+.clear {
+  background: rgb(255, 40, 40);
+  color: white;
+}
+
+.equal-sign {
+  grid-column: -2;
+  grid-row: 2 / span 4;
+  background: rgb(13, 206, 87);
 }
