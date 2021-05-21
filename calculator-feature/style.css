@@ -15,7 +15,7 @@ body {
 
 .calculator {
   background: white;
-  min-width: 400px;
+  width: 400px;
   border-radius: 12px;
   box-shadow: 0 5px 30px -5px rgba(0,0,0,0.6);
 }
@@ -29,8 +29,8 @@ body {
   justify-content: flex-end;
   border-radius: 10px 10px 0 0;
   max-width: 100%;
-
 }
+
 .calculator-display h1 {
   margin: 0;
   padding: 25px;
@@ -46,7 +46,6 @@ body {
 
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
-
 }
 
 ::-webkit-scrollbar-thumb {
@@ -73,6 +72,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
+
 button:hover {
   filter: brightness(110%);
 }
@@ -90,9 +90,14 @@ button:focus {
   color: white;
   font-size: 30px;
 }
+
 .clear {
   background: rgb(255, 40, 40);
   color: white;
+}
+
+.clear:hover {
+  filter: brightness(90%);
 }
 
 .equal-sign {
@@ -101,6 +106,7 @@ button:focus {
   background: rgb(13, 206, 87);
 }
 
+/* Media Query: Large Smartphone (Vertical) */
 @media screen and (max-width: 600px) {
   .calculator {
     width: 95%;
